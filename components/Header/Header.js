@@ -1,10 +1,14 @@
 class Header {
+    hendlerOpenShoppingPage(){
+        shoppingPage.render();
+    }
+
     render(count){
         const html = `
             <div class="header-container"> 
                 <img src="./logo.png" alt="">
 
-                <div class="header-counter"> 
+                <div class="header-counter" onclick="headerPage.hendlerOpenShoppingPage();"> 
                     <img src="./bin.png" alt="">
                     ${count}
                 </div>

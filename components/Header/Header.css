@@ -5,6 +5,11 @@
     height: 50px;
     padding: var(--spacing-small);
     background-color: var(--color-medium);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
 }
 
 .header-container img{
